@@ -1,0 +1,33 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  margin: auto;
+}
+
+
+.newThoughtBtn {
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  border: 1px black solid;
+  border-radius: 4px;
+}
+
+.socialTitle {
+  color: rgb(3, 169, 244);
+}
+
+.secondContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px black solid;
+  margin-top: 10px;
+  border-radius: 4px;
+  background-color: white;
+  align-items: center;
+}

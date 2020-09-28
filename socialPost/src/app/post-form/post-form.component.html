@@ -1,0 +1,20 @@
+<form #postForm="ngForm" (ngSubmit)="submitPostForm(postForm)">
+    <input type="text" name="title" ngModel />
+    <input type="text" name="thought" ngModel />
+    <button>Add a Post</button>
+</form>
+
+<!-- #postForm="ngForm" (ngSubmit)="submitPostForm(postForm)"
+
+
+
+
+<div class="postFormContainer">
+    <div class="postFormItem">
+        <div class="titleContainer">{{ post.title }}</div>
+        <div class="thoughtContainer">{{ post.thought }}</div>
+    </div>
+    <div class="deleteIcon">
+        <i class="fas fa-trash-alt" (click)="handleDelete()"></i>
+    </div>
+</div>
